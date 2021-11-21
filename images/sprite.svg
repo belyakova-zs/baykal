@@ -4,7 +4,7 @@
             <path fill="#fff" style="fill:var(--color1, #fff)" opacity=".8" d="M16 0C7.161 0 0 7.164 0 16c0 8.839 7.161 16 16 16 8.835 0 16-7.161 16-16 0-8.836-7.165-16-16-16zm9.569 9.371.023.004-8.929 8.931a.814.814 0 0 1-1.121-.003L6.609 9.371H25.57zm-19.584.598c0-.007.004-.011.004-.011l6.068 6.065-6.072 6.072V9.968zm.598 12.828c-.027 0-.052-.013-.079-.017l6.155-6.153 2.279 2.279c.308.311.724.48 1.165.48.437 0 .853-.169 1.161-.48l2.204-2.205 6.096 6.097H6.583zm19.585-.602-6.096-6.096 6.096-6.096v12.192z"/>
         </symbol>
         <symbol id="icon-Group2" viewBox="0 0 32 32">
-            <path fill="none" stroke="#fff" style="stroke:var(--color1, #fff)" stroke-miterlimit="10" stroke-width="1.684" d="M16 0v29.642M5.052 19.537 16 30.316l10.946-10.779"/>
+            <path fill="none" style="stroke:var(--color1, #fff)" stroke-miterlimit="10" stroke-width="1.684" d="M16 0v29.642M5.052 19.537 16 30.316l10.946-10.779"/>
         </symbol>
         <symbol id="icon-Group3" viewBox="0 0 32 32">
             <path fill="none" stroke="#70cf29" style="stroke:var(--color2, #70cf29)" stroke-miterlimit="10" stroke-width=".372" d="M26.18 4.148A15.564 15.564 0 0 0 16 .372C7.369.372.372 7.369.372 16c0 3.89 1.424 7.445 3.776 10.18"/>

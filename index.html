@@ -17,11 +17,18 @@
   <body>
     <!-- Шапка -->
     <header class="header">
-      <a href="">
+      <div class="container">
+        <div class="header-title">
+          <!-- ----------div 2 -->
+      <a href="" class="header-logo">
         <img src="./images/icons/group28.svg" alt="Логотип" />
+        <!-- ----header logo -->
+        <div class="header-logo-wrapper">
         <p class="header-logo-text-first">Байкальский отдых</p>
         <p class="header-logo-text-second">Турагентство</p>
+        </div>
       </a>
+      
 
       <ul class="header-contacts">
         <li>
@@ -37,17 +44,21 @@
       </ul>
 
       <button class="header-button" type="button">Обратный звонок</button>
+      </div>
 
       <!-- Навигация -->
       <nav class="header-nav">
-        <ul class="menu">
-          <li><a class="header-nav-link" href="">Бронирование</a></li>
-          <li><a class="header-nav-link" href="">Экскурсии</a></li>
-          <li><a class="header-nav-link" href="">Туры на Байкал</a></li>
-          <li><a class="header-nav-link" href="">О Байкале</a></li>
-          <li><a class="header-nav-link" href="">О нас</a></li>
+            
+        <ul class="header-menu">
+          <li class="header-link"><a class="header-nav-link" href="">Бронирование</a></li>
+          <li class="header-link"><a class="header-nav-link" href="">Экскурсии</a></li>
+          <li class="header-link"><a class="header-nav-link" href="">Туры на Байкал</a></li>
+          <li class="header-link"><a class="header-nav-link" href="">О Байкале</a></li>
+          <li class="header-link"><a class="header-nav-link" href="">О нас</a></li>
         </ul>
-      </nav>
+
+      </nav>  
+      </div>    
     </header>
 
     <main>
@@ -60,7 +71,11 @@
           впечатлениями!
         </p>
         <a class="hero-button" href="">подобрать тур</a>
-        <a class="hero-down" href="./images/sprite.svg#icon-Vectordown"></a>
+        <a class="hero-down" href="">
+          <svg class="hero-icon-down" width="13" height="18">
+            <use href="./images/sprite.svg#icon-Group2"></use>
+          </svg>
+        </a>
         </div>
       </section>
 
