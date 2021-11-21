@@ -167,11 +167,10 @@ body {
   margin-right: auto;
   padding-top: 226px;
   padding-bottom: 33px;
+
   background-color: gray;
   background-image: url("../images/Главный-экран.jpg");
   background-repeat: no-repeat;
-  /* background-size: contain; */
-
   color: var(--second-text-color);
 }
 
@@ -360,16 +359,17 @@ body {
 
 .about {
   padding-top: 70px;
-  padding-bottom: 79px;
+  padding-bottom: 81px;
 }
 
 .about-title {
+  margin-bottom: 21px;
+
   font-family: Pt serif, sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 1.3;
   text-align: center;
-  margin-bottom: 37px;
 }
 
 .about-description {
@@ -378,7 +378,39 @@ body {
   color: #333333;
 }
 
-.about-link {
+.hide-text {
+  display: none;
+}
+.about-checkbox:checked ~ .hide-text {
+  display: block;
+}
+
+.about-checkbox {
+  position: absolute;
+  appearance: none;
+}
+
+.about-label {
+  display: block;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.label-on,
+.label-off {
+  text-decoration: underline;
+  color: #76767a;
+}
+
+.label-off {
+  display: none;
+}
+
+.about-checkbox:checked ~ .about-label .label-on {
+  display: none;
+}
+.about-checkbox:checked ~ .about-label .label-off {
+  display: block;
 }
 
 /* Фотогалерея */
